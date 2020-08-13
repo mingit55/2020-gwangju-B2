@@ -7,3 +7,7 @@ location.getQueryString = function() {
         return obj;
     }, {})
 };
+
+$(function(){
+    
+});

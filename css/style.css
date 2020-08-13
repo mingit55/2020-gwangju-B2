@@ -131,6 +131,7 @@ button {
 .t-row--hoverable:hover { transform: translateX(20px); }
 
 .cell-85 { flex: 0 0 85%; max-width: 85%; }
+.cell-70 { flex: 0 0 70%; max-width: 70%; }
 .cell-60 { flex: 0 0 60%; max-width: 60%; }
 .cell-50 { flex: 0 0 50%; max-width: 50%; }
 .cell-40 { flex: 0 0 40%; max-width: 40%; }
@@ -620,5 +621,15 @@ footer { background-color: #333; color: #fffa }
 
 }
 
-
 /* /전북 대표 축제 페이지 */
+
+/* 환율 안내 페이지 */
+.exchange-item {
+    padding: 2em;
+}
+.exchange-item.active {
+    opacity: 0.7;
+    margin-left: 2em;
+    box-shadow: -3px 3px 5px #0003;
+}
+/* /환율 안내 페이지 */
