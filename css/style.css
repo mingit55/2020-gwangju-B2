@@ -25,6 +25,7 @@ hr {
 .d-between { display: flex; justify-content: space-between; align-items: center; }
 .d-center { display: flex; justify-content: center; align-items: center; }
 .fit-cover { object-fit: cover; width: 100%; height: 100%; }
+.keep-all { word-break: keep-all; }
 
 .icon {
     display: inline-block;
