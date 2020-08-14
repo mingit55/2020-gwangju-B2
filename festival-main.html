@@ -12,6 +12,16 @@
     <script src="/js/common.js"></script>
 </head>
 <body>
+    <!-- 찾아오시는 길 -->
+    <div id="road-modal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body px-4 py-5 text-center fx-3 font-weight-bold keep-all"></div>
+            </div>
+        </div>
+    </div>
+    <!-- /찾아오시는 길 -->
+
     <!-- 헤더 영역 -->
     <input type="checkbox" id="open-search" hidden>
     <input type="checkbox" id="open-aside" hidden>
@@ -58,7 +68,7 @@
                             <a href="#">센터 소개</a>
                             <a href="#">관광정보 문의</a>
                             <a href="#">데이터 공개</a>
-                            <a href="#">찾아오시는 길</a>
+                            <a href="#" data-target="#road-modal">찾아오시는 길</a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +112,7 @@
                         <a href="#">센터 소개</a>
                         <a href="#">관광정보 문의</a>
                         <a href="#">데이터 공개</a>
-                        <a href="#">찾아오시는 길</a>
+                        <a href="#" data-target="#road-modal">찾아오시는 길</a>
                     </div>
                 </div>
             </div>

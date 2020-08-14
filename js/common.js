@@ -22,7 +22,7 @@ $(function(){
             });
         setTimeout(() => {
             timeout = true;
-            alert("돌아오는 길을 표시할 수 없습니다.");
+            alert("찾아오시는 길을 표시할 수 없습니다.");
         }, 1000);
     });
 });
